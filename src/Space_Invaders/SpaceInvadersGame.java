@@ -9,7 +9,7 @@ import Space_Invaders.objects.AlienShot;
 import Space_Invaders.objects.GameOver;
 import Space_Invaders.objects.HUD;
 import Space_Invaders.objects.Initializer;
-import Space_Invaders.objects.Saucer;
+import Space_Invaders.objects.DeathStar;
 import Space_Invaders.objects.Shield;
 import Space_Invaders.objects.Title;
 import java.awt.Dimension;
@@ -23,7 +23,7 @@ public class SpaceInvadersGame extends Game {
     public static Dimension screenSize = new Dimension(360, 330);
     public static Point2D screenScale = new Point2D.Double(2, 2);
 
-    public static enum State { INITIALIZING, OL_PRESENTS, TITLE, READY, PLAYING, HIT, CLEAR, GAME_OVER }
+    public enum State { INITIALIZING, OL_PRESENTS, TITLE, READY, PLAYING, HIT, CLEAR, GAME_OVER }
     public State state = State.INITIALIZING;
     
     public double enemiesShootingProbability;
@@ -100,7 +100,7 @@ public class SpaceInvadersGame extends Game {
             objs.add(alienShot);
         }
 
-        objs.add(new Saucer(this));
+        objs.add(new DeathStar(this));
         objs.add(new Title(this));
         objs.add(new GameOver(this));
     }
@@ -128,9 +128,7 @@ public class SpaceInvadersGame extends Game {
         hiscoreStr = hiscoreStr.substring(hiscoreStr.length() - 7, hiscoreStr.length());
         return hiscoreStr;
     }
-    
-    // ---
-    
+
     public void startGame() {
         enemiesShootingProbability = 0.001;
         enemiesCount = 11 * 5;

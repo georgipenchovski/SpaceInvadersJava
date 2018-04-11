@@ -25,10 +25,11 @@ public class Title extends SpaceInvadersObj {
     public void init() {
         image = new BufferedImage(282, 22, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g = (Graphics2D) image.getGraphics();
-        g.setBackground(Color.yellow);
-        g.setColor(Color.yellow);
-        g.fillRect(0, 0, 282, 22);
-        g.setBackground(Color.yellow);
+//        Background
+//        g.setBackground(Color.yellow);
+//        g.setColor(Color.yellow);
+//        g.fillRect(0, 0, 282, 22);
+//        g.setBackground(Color.yellow);
         g.scale(2, 2);
         game.drawText(g, "SPACE INVADERS", 0, 0);
 

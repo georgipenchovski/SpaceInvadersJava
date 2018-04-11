@@ -14,7 +14,6 @@ public class Ship extends SpaceInvadersObj {
 
     public ShipShot shipShot;
     public boolean hit;
-    public long hitTime;
     public Sound shootSound;
 
 
@@ -27,9 +26,9 @@ public class Ship extends SpaceInvadersObj {
     @Override
     public void init() {
         x = 360 / 2 - 13;
-        y = 290;
+        y = 288;
         collider = new Rectangle2D.Double(x, y, 26, 16);
-        loadFrames("falcon.png", "ship_destroyed_0.png", "ship_destroyed_1.png");
+        loadFrames("millennium falcon.png", "ship_destroyed_0.png", "ship_destroyed_1.png");
         shootSound = new Sound("/sounds/shoot.wav");
 
     }
@@ -121,11 +120,6 @@ public class Ship extends SpaceInvadersObj {
         } else if (game.state == SpaceInvadersGame.State.GAME_OVER) {
             visible = false;
         }
-    }
-
-    public void hit() {
-        hit = true;
-        hitTime = System.currentTimeMillis();
     }
 
 }

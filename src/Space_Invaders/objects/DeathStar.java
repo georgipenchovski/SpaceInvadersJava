@@ -6,7 +6,7 @@ import Space_Invaders.SpaceInvadersObj;
 
 import java.awt.geom.Rectangle2D;
 
-public class Saucer extends SpaceInvadersObj {
+public class DeathStar extends SpaceInvadersObj {
     
     private double vx;
     
@@ -18,7 +18,7 @@ public class Saucer extends SpaceInvadersObj {
     private long hitTime;
     private long showScoreTime;
 
-    public Saucer(SpaceInvadersGame game) {
+    public DeathStar(SpaceInvadersGame game) {
         super(game);
     }
 
@@ -26,7 +26,7 @@ public class Saucer extends SpaceInvadersObj {
     public void init() {
         vx = 1;
         collider = new Rectangle2D.Double(x, y, 24, 12);
-        loadFrames("saucer.png", "saucer_destroyed_0.png", "saucer_destroyed_1.png");
+        loadFrames("deathstar.png", "saucer_destroyed_0.png", "saucer_destroyed_1.png");
         x = -50;
         reset();
     }
@@ -89,8 +89,7 @@ public class Saucer extends SpaceInvadersObj {
 
     public void reset() {
         y = 25;
-        hit = false;
-        //visible = true;
+        hit = false;;
         frame = frames[0];
         showStartTime = System.currentTimeMillis();
         showTime = (int) (10000 + 10000 * Math.random());

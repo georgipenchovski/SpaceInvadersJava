@@ -10,11 +10,6 @@ import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Shield class.
- * 
- * @author Leonardo Ono (ono.leo@gmail.com)
- */
 public class Shield extends SpaceInvadersObj {
     
     private int id;
@@ -38,8 +33,6 @@ public class Shield extends SpaceInvadersObj {
         colliderBackup = collider = new Rectangle2D.Double(x, y, 14, 8);
         
         Point[] ps = new Point[] { new Point(-1, 0), new Point(1, 0), new Point(0, -1), new Point(0, 1)};
-        //for (int sy = -1; sy <= 1; sy++) {
-        //    for (int sx = -1; sx <= 1; sx++) {
         for (Point p : ps) {
             int sx = p.x;
             int sy = p.y;
@@ -56,8 +49,6 @@ public class Shield extends SpaceInvadersObj {
                     }
                 }
         }
-        //    }
-        //}
         
         int c = col;
         int r = row;

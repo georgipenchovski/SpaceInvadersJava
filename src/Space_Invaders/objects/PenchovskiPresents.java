@@ -68,7 +68,6 @@ public class PenchovskiPresents extends SpaceInvadersObj {
         if (!visible) {
             return;
         }
-        //System.out.println("currentLine=" + currentLine);
         g.drawImage(image, 48, 140, 262, 22, null);
         g.drawImage(image, 48, 0, 310, 140 + currentLine, 0, currentLine, 262, currentLine + 1, null);
     }

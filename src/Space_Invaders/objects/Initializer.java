@@ -20,7 +20,6 @@ public class Initializer extends SpaceInvadersObj {
         while (true) {
             switch (instructionPointer) {
                 case 0:
-                    // game.setState(State.TITLE);
                     waitTime = System.currentTimeMillis();
                     instructionPointer = 1;
                 case 1:

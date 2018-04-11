@@ -4,7 +4,6 @@ package Space_Invaders.objects;
 import Space_Invaders.SpaceInvadersGame;
 import Space_Invaders.SpaceInvadersGame.State;
 import Space_Invaders.SpaceInvadersObj;
-import Space_Invaders.core.Sound;
 
 import java.awt.geom.Rectangle2D;
 
@@ -12,7 +11,6 @@ public class ShipShot extends SpaceInvadersObj {
 
     public boolean hit;
     public long hitTime;
-//    public Sound shootSound;
     public ShipShot(SpaceInvadersGame game) {
         super(game);
     }
@@ -21,9 +19,6 @@ public class ShipShot extends SpaceInvadersObj {
     public void init() {
         collider = new Rectangle2D.Double(x, y, 6, 10);
         loadFrames("ship_shot.png", "ship_shot_destroyed.png");
-//        shootSound = new Sound("/sounds/shoot.wav");
-//        visible = false;
-//        shootSound.loop();
     }
 
     @Override
@@ -62,7 +57,7 @@ public class ShipShot extends SpaceInvadersObj {
             return;
         }
 
-        Saucer saucer = game.checkCollision(this, Saucer.class);
+        DeathStar saucer = game.checkCollision(this, DeathStar.class);
         if (saucer != null) {
             saucer.hit();
             visible = false;
@@ -85,7 +80,6 @@ public class ShipShot extends SpaceInvadersObj {
         visible = true;
         hit = false;
         frame = frames[0];
-//        shootSound.play();
        }
 
     // broadcast messages
