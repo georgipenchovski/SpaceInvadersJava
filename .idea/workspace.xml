@@ -2,42 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2914214e-ab1f-4c75-966f-a2db8b87c2c8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Saucer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/falcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/Saucer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/SI logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/alien1_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/alien2_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/alien3_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/falcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/saucer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/ship.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/SpaceInvadersGame.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/SpaceInvadersGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Alien.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Alien.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Initializer.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Initializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/PenchovskiPresents.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/PenchovskiPresents.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Shield.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Shield.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/millennium falcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/saucer_destroyed_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/saucer_destroyed_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/millennium falcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/saucer_destroyed_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/saucer_destroyed_1.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/DeathStar.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/DeathStar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/HUD.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/HUD.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Ship.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Ship.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/ShipShot.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/ShipShot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Title.class" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/Space_Invaders/objects/Title.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/alien1_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/alien1_0.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/alien2_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/alien2_0.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/alien3_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/alien3_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/deathstar.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/deathstar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_0_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_0_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_0_0_destroyed.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_0_0_destroyed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_0_3.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_0_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_1_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_1_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_2_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_2_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_2_3.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/shield_2_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/ship_destroyed_0.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/ship_destroyed_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/ship_destroyed_1.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/ship_destroyed_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Space Invaders Java/images/ship_lives.png" afterPath="$PROJECT_DIR$/out/production/Space Invaders Java/images/ship_lives.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/alien1_0.png" afterPath="$PROJECT_DIR$/src/images/alien1_0.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/alien2_0.png" afterPath="$PROJECT_DIR$/src/images/alien2_0.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/alien3_0.png" afterPath="$PROJECT_DIR$/src/images/alien3_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/deathstar.png" afterPath="$PROJECT_DIR$/src/images/deathstar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_0_0.png" afterPath="$PROJECT_DIR$/src/images/shield_0_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_0_0_destroyed.png" afterPath="$PROJECT_DIR$/src/images/shield_0_0_destroyed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_0_3.png" afterPath="$PROJECT_DIR$/src/images/shield_0_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_0_3_destroyed.png" afterPath="$PROJECT_DIR$/src/images/shield_0_3_destroyed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_1_0.png" afterPath="$PROJECT_DIR$/src/images/shield_1_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_1_0_destroyed.png" afterPath="$PROJECT_DIR$/src/images/shield_1_0_destroyed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_1_0_destroyed_0.png" afterPath="$PROJECT_DIR$/src/images/shield_1_0_destroyed_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_1_0_destroyed_1.png" afterPath="$PROJECT_DIR$/src/images/shield_1_0_destroyed_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_1_0_destroyed_2.png" afterPath="$PROJECT_DIR$/src/images/shield_1_0_destroyed_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_2_0.png" afterPath="$PROJECT_DIR$/src/images/shield_2_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_2_0_destroyed.png" afterPath="$PROJECT_DIR$/src/images/shield_2_0_destroyed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_2_3.png" afterPath="$PROJECT_DIR$/src/images/shield_2_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/shield_2_3_destroyed.png" afterPath="$PROJECT_DIR$/src/images/shield_2_3_destroyed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/ship_destroyed_0.png" afterPath="$PROJECT_DIR$/src/images/ship_destroyed_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/ship_destroyed_1.png" afterPath="$PROJECT_DIR$/src/images/ship_destroyed_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/ship_lives.png" afterPath="$PROJECT_DIR$/src/images/ship_lives.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/SpaceInvadersGame.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/SpaceInvadersGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/core/BitmapFontRenderer.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/core/BitmapFontRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/core/Sound.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/core/Sound.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/Alien.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/Alien.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/HUD.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/HUD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/Initializer.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/Initializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/PenchovskiPresents.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/PenchovskiPresents.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/Shield.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/Shield.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/Ship.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/Ship.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/ShipShot.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/ShipShot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space_Invaders/objects/Title.java" afterPath="$PROJECT_DIR$/src/Space_Invaders/objects/Title.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,47 +69,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="506">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Obj.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/Obj.java">
+      <file leaf-file-name="Title.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/Title.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/Keyboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="638">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,8 +102,8 @@
       <file leaf-file-name="DeathStar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,6 +121,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HUD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/HUD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,8 +144,8 @@
       <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="1298">
+              <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -210,11 +215,12 @@
         <option value="$PROJECT_DIR$/src/Space_Invaders/SpaceInvadersGame.java" />
         <option value="$PROJECT_DIR$/src/Space_Invaders/objects/Initializer.java" />
         <option value="$PROJECT_DIR$/src/Space_Invaders/objects/Saucer.java" />
-        <option value="$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java" />
-        <option value="$PROJECT_DIR$/src/Space_Invaders/objects/Ship.java" />
         <option value="$PROJECT_DIR$/src/Space_Invaders/objects/MillenniumFalcon.java" />
         <option value="$PROJECT_DIR$/src/Space_Invaders/objects/MillenniumFalconShot.java" />
         <option value="$PROJECT_DIR$/src/Space_Invaders/objects/ShipShot.java" />
+        <option value="$PROJECT_DIR$/src/Space_Invaders/objects/HUD.java" />
+        <option value="$PROJECT_DIR$/src/Space_Invaders/objects/Ship.java" />
+        <option value="$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java" />
       </list>
     </option>
   </component>
@@ -239,9 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,6 +281,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -522,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/Title.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/Shield.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816">
@@ -693,13 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/HUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -725,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/BitmapFontRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -774,10 +756,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/ShipShot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="132">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/core/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -792,26 +790,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java">
+    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/HUD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/ShipShot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="704">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="506">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Space_Invaders/objects/DeathStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -26,7 +26,7 @@ public class DeathStar extends SpaceInvadersObj {
     public void init() {
         vx = 1;
         collider = new Rectangle2D.Double(x, y, 24, 12);
-        loadFrames("deathstar.png", "saucer_destroyed_0.png", "saucer_destroyed_1.png");
+        loadFrames("deathstar.png", "deathstar_destroyed_0.png", "deathstar_destroyed_1.png");
         x = -50;
         reset();
     }

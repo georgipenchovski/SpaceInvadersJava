@@ -28,7 +28,7 @@ public class Ship extends SpaceInvadersObj {
         x = 360 / 2 - 13;
         y = 288;
         collider = new Rectangle2D.Double(x, y, 26, 16);
-        loadFrames("millennium falcon.png", "ship_destroyed_0.png", "ship_destroyed_1.png");
+        loadFrames("ship.png", "ship_destroyed_0.png", "ship_destroyed_1.png");
         shootSound = new Sound("/sounds/shoot.wav");
 
     }

@@ -28,7 +28,7 @@ public class HUD extends SpaceInvadersObj {
         for (int lives = 0; lives < game.lives; lives++) {
             g.drawImage(frame, 75 + 20 * lives, 316, null);
         }
-        g.setColor(Color.GREEN);
+        g.setColor(Color.WHITE);
         g.fillRect(10, 310, 340, 2);
     }
 
