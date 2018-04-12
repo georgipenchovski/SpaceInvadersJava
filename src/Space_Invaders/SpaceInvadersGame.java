@@ -7,7 +7,7 @@ import Space_Invaders.objects.ShipShot;
 import Space_Invaders.core.Game;
 import Space_Invaders.objects.AlienShot;
 import Space_Invaders.objects.GameOver;
-import Space_Invaders.objects.HUD;
+import Space_Invaders.objects.Inscription;
 import Space_Invaders.objects.Initializer;
 import Space_Invaders.objects.DeathStar;
 import Space_Invaders.objects.Shield;
@@ -65,7 +65,7 @@ public class SpaceInvadersGame extends Game {
     public void createAllObjs() {
         objs.add(new Initializer(this));
         objs.add(new PenchovskiPresents(this));
-        objs.add(new HUD(this));
+        objs.add(new Inscription(this));
         
         // shields
         for (int id = 0; id < 4; id++) {

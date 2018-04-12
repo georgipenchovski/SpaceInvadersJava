@@ -6,9 +6,9 @@ import Space_Invaders.SpaceInvadersObj;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-public class HUD extends SpaceInvadersObj {
+public class Inscription extends SpaceInvadersObj {
 
-    public HUD(SpaceInvadersGame game) {
+    public Inscription(SpaceInvadersGame game) {
         super(game);
     }
 

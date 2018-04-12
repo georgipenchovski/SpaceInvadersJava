@@ -36,7 +36,7 @@ public class Alien extends SpaceInvadersObj {
     @Override
     public void init() {
         collider = new Rectangle2D.Double(x, y, 24, 24);
-        loadFrames("alien" + type + "_0.png", "alien" + type + "_0.png", "alien_destroyed.png");
+        loadFrames("alien" + type + "_0.png", "alien" + type + "_1.png", "alien_destroyed.png");
         explosionSound = new Sound("/sounds/explosion.wav");
         reset();
     }
@@ -99,6 +99,7 @@ public class Alien extends SpaceInvadersObj {
         x += vx;
         if ((vx < 0 && x < 10) || (vx > 0 && x > 326)) {
             game.broadcastMessage("downEnemy");
+
         }
 
         if (alienShot.canShoot() && Math.random() < game.enemiesShootingProbability) {
